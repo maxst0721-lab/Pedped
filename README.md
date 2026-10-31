@@ -2,6 +2,14 @@
 
 Pedped 是一個 Android App，可以把步數寫入 [Health Connect](https://developer.android.com/health-and-fitness/guides/health-connect)，用來補登沒有被手機或手錶記錄到的步數。
 
+## 下載
+
+**[下載 Pedped（最新版 APK）](https://github.com/maxst0721-lab/Pedped/releases/latest/download/Pedped.apk)**
+
+目前版本：v1.0 ｜ 需要 Android 9 以上 ｜ [所有版本](https://github.com/maxst0721-lab/Pedped/releases)
+
+> 安裝過 v1.0 之前的測試版？請先看「[從測試版升級](#從測試版升級)」。使用前也請看「[注意事項](#注意事項)」。
+
 ## 功能
 
 - **讀取今日總步數**：彙整 Health Connect 中所有 App 和裝置今天的步數
@@ -20,7 +28,7 @@ Pedped 是一個 Android App，可以把步數寫入 [Health Connect](https://de
 
 ## 安裝
 
-1. 到 [Releases](../../releases) 下載最新版的 `Pedped-v*.apk`
+1. 用上方的[下載連結](#下載)下載 `Pedped.apk`
 2. 在手機上開啟 APK。如果系統詢問，請允許瀏覽器或檔案管理員「安裝不明來源的應用程式」
 3. 第一次開啟時，依提示允許 Pedped **讀取**和**寫入**步數
 
@@ -42,7 +50,7 @@ Pedped 是一個 Android App，可以把步數寫入 [Health Connect](https://de
 47:1F:84:EC:B2:07:B4:23:0A:03:54:9E:0B:D7:56:87:47:52:C1:07:61:DD:CD:19:62:6C:CE:7B:B2:63:7D:24
 ```
 
-可以用 Android SDK 的 `apksigner verify --print-certs Pedped-v1.0.apk` 比對。
+可以用 Android SDK 的 `apksigner verify --print-certs Pedped.apk` 比對。
 
 ## 運作方式
 
